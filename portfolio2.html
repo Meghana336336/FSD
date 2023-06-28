@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+    font-family: Times New Roman , serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #FFBC00;
+    color: #9b1c31;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+}
+
+    nav ul li {
+        display: inline-block;
+    }
+
+        nav ul li a {
+            display: block;
+            padding: 10px;
+            color: #FF0000;
+            text-decoration: none;
+        }
+
+main {
+    padding: 20px;
+}
+
+footer {
+    background-color: #FFBC00;
+    color: #FF0000;
+    padding: 10px;
+    text-align: center;
+}
+</style>
+    <title> Basic Portfolio</title>
+    <link rel="stylesheet" type="text/css" href="portfolio.css">
+    <script src="script.js"></script>
+</head>
+<body>
+    <header>
+        <h1> Portfolio</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+          <li><a href="#Internships">Internships</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="home">
+            <h2>My Portfolio</h2>
+            <p>Welcome to the home section.</p>
+                      <p>You can find any information regarding me in the About section</p>
+
+
+        </section>
+        <section id="about">
+            <h2>About </h2>
+           <p>Everything about me</p>
+            <p>Name: Meghana Kuravi</p>
+          <p>Age:  19</p>
+          <p>Year: 3rd Year</p>
+          <p>School : Alwardas Public School<p>
+            <p>Inter : Ascent Junior College <p>
+          <p>College: Andhra University</p>
+              <p>Hobbies: Reading Books, Listening to Music</p>
+        </section>
+        <section id="projects">
+            <h2> Projects</h2>
+            <p>All the projects that i have done</p>
+           <p>Netflix Home Page Clone<p>
+           <p>Quiz App<p>
+           <p>Temperature Converter Website<p>
+           <p>Restaurant Website<p>
+           <p>Basic Portfolio Website<p>
+           <p>Responsive Blog Website<p>
+           <p>Covid Awareness.</p>
+             
+             </section>
+        <section id="internships">
+          <h2> Internships</h2>
+           <p>I&T LABS</p>
+          <p> Analytics Vidya Internship in Python</p>
+        </section>
+        <section id="contact">
+            <h2>Contact Me</h2>
+            <form method="post" action="contact.php">
+                <label for="name">Name:</label>
+                <input type="text" name="name" required>
+                <label for="email">Email:</label>
+                <input type="email" name="email" required>
+               
+                <input type="submit" value="Submit">
+            </form>
+        </section>
+    </main>
+   
+</body>
+</html>
